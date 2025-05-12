@@ -1,0 +1,14 @@
+파이썬 torch gpu 사용 환경
+
+파이썬 3.9 ~ 3.13 (현재 프로젝트 환경 3.10)
+
+
+# gpu 기종마다 지원 버전이 상이함. 주의
+CUDA 11.8, 12.4   (여기선 11.8 사용) 
+https://developer.nvidia.com/cuda-11-8-0-download-archive
+
+CUDNN 9.5.1 
+https://developer.nvidia.com/cudnn-9-5-1-download-archive
+
+그리고 해당 환경에 맞는 pytorch 라이브러리 설치
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
